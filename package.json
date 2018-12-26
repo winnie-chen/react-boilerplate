@@ -1,0 +1,45 @@
+{
+  "name": "react-isomorphic-boilerplate",
+  "version": "0.1.0",
+  "description": "Whole bunch of config for an isomorphic React application",
+  "author": "Richard Tong",
+  "license": "UNLICENSED",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "github:dandylive/dandy-admin"
+  },
+  "dependencies": {
+    "aphrodite": "^2.2.2",
+    "compression": "^1.7.3",
+    "express": "^4.16.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-helmet": "^5.2.0",
+    "react-redux": "^6.0.0",
+    "react-router-dom": "^4.3.1",
+    "react-waypoint": "^8.1.0",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "superagent": "^3.8.3",
+    "url-search-params-polyfill": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/register": "^7.0.0",
+    "@babel/runtime": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "chokidar": "^2.0.4",
+    "compression-webpack-plugin": "^2.0.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "minimist": "^1.2.0",
+    "webpack": "^4.15.0",
+    "webpack-bundle-analyzer": "^3.0.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
